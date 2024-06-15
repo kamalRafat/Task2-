@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+    position: relative;
+    width: fit-content; /* Adjust to image width or as needed */
+}
+
+.container img {
+    width: 100%; /* Adjust based on your requirement */
+    display: block; /* To remove bottom space/gap */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Match the parent container width */
+    height: 100%; /* Match the parent container height */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: white; /* Text color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 20px; /* Example font size */
+}
+  </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="imagess 4/1-Ui-Ux.png" alt="Background Image">
+        <div class="overlay">This is the overlay text!</div>
+    </div>
+</body>
+</html>
